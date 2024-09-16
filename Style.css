@@ -1,0 +1,211 @@
+.bodyH {
+    background-color: #9fe9a9;
+}
+.bodyC {
+    background-color: #9fe9a9;
+}
+.bodyP{
+    background-color:  #5ce46e;
+}
+.bodyN {
+    background-color: #9fe9a9;
+}
+nav {
+    background-color: #1a401f;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+.banner{ 
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+}
+.cardHome {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 60px; 
+    margin: 20px; 
+    max-width: auto;
+    box-shadow: 10px 10px 10px #0000004d;
+}
+
+.cardHome-title {
+    margin-top: 0; 
+    margin-bottom: 40px; 
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+}
+.cardHome-subtitle {
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+}
+.cardHome-text {
+    margin: 0;
+    text-align: justify;
+    font-size: 17px;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tableNos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabela-transparente {
+    background-color: transparent; /* Fundo transparente */
+    border-collapse: collapse; /* Remover espaçamento entre bordas */
+}
+
+.tabela-transparente th, .tabela-transparente td {
+    border: 5px solid white; /* Borda branca */
+}
+
+
+.cardCons {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 60px; 
+    margin: 20px; 
+    max-width: auto;
+    box-shadow: 10px 10px 10px #0000004d;
+}
+
+.cardCons-title {
+    margin-top: 0; 
+    margin-bottom: 40px; 
+    text-align: center;
+    color: #2E464F;
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+}
+
+.cardCons-text {
+    margin: 0;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardConserva {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 60px; 
+    margin: 20px; 
+    max-width: auto;
+    box-shadow: 10px 10px 10px #0000004d;
+}
+
+.cardConserva-title {
+    margin-top: 0; 
+    margin-bottom: 40px; 
+    text-align: center;
+    color: #2E464F;
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+}
+
+.cardConserva-subtitle {
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+}
+
+.cardConserva-text {
+    margin: 0;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    perspective: 1000px; 
+}
+
+.R{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    perspective: 1000px; 
+}
+
+.R img {
+    display: block;
+    width: 500px; 
+    height: auto;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+
+.image-container img {
+    display: block;
+    width: 500px; 
+    height: auto;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    background-color: #d4d48d; 
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.image-container:hover img {
+    transform: rotateY(180deg);
+}
+
+.image-container:hover .caption {
+    transform: rotateY(0deg);
+}
+
+.img-container {
+    flex-shrink: 0; 
+}
+
+.custom-img {
+    width: 450px;
+    height: 500px;
+}
+
+.ms-4 {
+    margin-left: 20px;
+}
+
+.agradecimento {
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+}
